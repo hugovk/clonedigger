@@ -39,6 +39,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    install_requires=['future', 'setuptools'],
+    install_requires=['setuptools'],
     entry_points=entry_points,
 )
