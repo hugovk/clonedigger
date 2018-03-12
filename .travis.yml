@@ -21,9 +21,9 @@ script: clonedigger .
 
 after_script:
  # Static analysis
- - pip install -U pep8 pyflakes
+ - pip install -U pycodestyle pyflakes
  - pyflakes .
- - pep8 --statistics --count .
+ - pycodestyle --statistics --count .
 
 matrix:
   fast_finish: true
